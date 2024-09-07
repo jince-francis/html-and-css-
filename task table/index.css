@@ -1,0 +1,15 @@
+th{
+    background-color: aqua;
+    padding: 10px;
+}
+td{
+    padding: 5px;
+}
+table{
+    height: 30%;
+    width: 75%;
+    margin-left: 150px;
+}
+.grey{
+    background-color: rgb(228, 225, 220);
+}

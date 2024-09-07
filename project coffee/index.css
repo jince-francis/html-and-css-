@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body{
+    position: relative;
+    
+}
+.top-img img{
+    width: 100%;
+    height: 600px;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    margin: 0 40px;
+}
+.ul-elements{
+    display: inline-block;
+    margin: 0 13px;
+    color: red;
+    font-size: 20px;
+
+}
+
+.nav-options{
+    width: 100%;
+}
+
+.icons{
+    float: right;
+    margin-top: -10px;
+
+}
+.icons i{
+    padding: 10px;
+}
+
+.middle{
+    background-image: url("./images/underlay_img.jpg");
+    height: 860px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    /* opacity: .8; */
+    
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-item{
+    height: 500px;
+    width: 3fr;
+}
+
+.overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay img{
+    margin-top: 40px;
+    width: 30%;
+    height: 299px;
+}
+
+.social{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.insta{
+    background-image: url("./images/insta-bg.png");
+    height: 43px;
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+}
+.fb{
+    background-image: url("./images/gb-bg.png");
+    height: 43px;
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+}
+.yt{
+    background-image: url("./images/youtube-bg.png");
+    height: 43px;
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+}
+.twitter{
+    background-image: url("./images/twitter-bg.png");
+    height: 43px;
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+}
+.cake-gif{
+    position: relative;
+}
+.cake-gif a{
+    position: absolute;
+    bottom: 40px;
+    left: 180px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    background-color: red;
+    padding: 5px 18px;
+    border-radius: 15px;
+}
+
+.bean-gif{
+    position: relative;
+}
+
+.bean-gif a{
+    position: absolute;
+    bottom: 40px;
+    left: 180px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    background-color: red;
+    padding: 5px 18px;
+    border-radius: 15px;
+}
+
+.can-gif{
+    position: relative;
+}
+
+.can-gif a{
+    position: absolute;
+    bottom: 40px;
+    left: 190px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    background-color: red;
+    padding: 5px 18px;
+    border-radius: 15px;
+}
+footer{
+
+    width: 100%;
+    height: 350px;
+}
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: repeat(5,5fr);
+    margin-left: 80px;
+    padding-top: 50px;
+}
+
+h4{
+    color: rgb(77, 75, 75);
+    margin-bottom: 10px;
+}
+h5{
+    color: grey;
+    padding: 3px;
+}
+hr{
+    margin-top: 10px;
+}
+
+.copyright{
+    margin: 20px;
+}
+
+.footer-img{
+    margin-top: -70px;
+    float: right;
+}

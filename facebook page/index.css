@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    background-color:#f2f4f7;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.facebook-logo img{
+    height: 80px;
+    width: 240px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.facebook-container{
+    height: 314px;
+    width: 397px;
+    background-color: white;
+    position:absolute;
+    margin-top: 130px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: center;
+}
+.facebook-container p{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    padding: 24px 0 16px;
+    font-size: 18px;
+    line-height: 22px;
+    position: absolute;
+
+}
+
+/* .forms{
+    position: absolute;
+    margin-top: -350px;
+    left: 550px;
+    padding: 20px;
+    width: 300px;
+    height: 100%;
+}
+
+.form-inputs{
+} */
+.forms .form-inputs input {
+    width: 15%; /* Adjusts the input to take up the full width of its container */
+    padding: 10px; /* Adds padding inside the input fields for better spacing */
+    font-size: 16px; /* Increases the font size */
+}
+
+.forms .form-inputs button {
+    width: 15%; /* Makes the button take up the full width of its container */
+    padding: 10px; /* Adds padding inside the button for better spacing */
+    font-size: 16px; 
+}
+
+.form-inputs {
+    margin-bottom: 10px;
+}
+.forms{
+    margin-top: -350px;
+    margin-left: 100px;
+    left: 50%;
+    position: absolute
+}

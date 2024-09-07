@@ -1,0 +1,63 @@
+#parent{
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    padding: 30px;
+    background-color: rgb(107, 59, 133);
+    margin: 0 10px;
+    border-radius: 50%;
+    animation: move 2s infinite;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+}
+
+#one{
+    animation-delay: .3s;
+}
+
+#two{
+    animation-delay: .6s;
+}
+#three{
+    animation-delay: .9s;
+}
+#four{
+    animation-delay: 1.2s;
+}
+#five{
+    animation-delay: 1.5s;
+}
+#six{
+    animation-delay: 1.8s;
+}
+#seven{
+    animation-delay: 2.1s;
+}
+#eight{
+    animation-delay: 2.4s;
+}
+#nine{
+    animation-delay: 2.7s;
+}
+#ten{
+    animation-delay: 3s;
+}
+    @keyframes move {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(70px);
+            background-color: red;
+        }
+    }

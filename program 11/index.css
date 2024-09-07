@@ -1,0 +1,18 @@
+header{
+    height: 500px;
+    width: 100%;
+    background-image: url("https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment:fixed;
+    opacity: .8;
+}
+h1{
+    color: blueviolet;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}

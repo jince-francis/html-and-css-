@@ -1,0 +1,123 @@
+body{
+    background-color: aqua;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+.boxTwo{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+.boxThree{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+#one{
+    background-color: blue;
+}
+#two{
+    background-color: aliceblue;
+    margin-top: -100px;
+    margin-left: 550px;
+}
+#three{
+    background-color: rgb(9, 9, 9);
+    margin-top: -100px;
+    margin-left: 700px;
+}
+#four{
+    background-color: blueviolet;
+    margin-top: -100px;
+    margin-left: 850px;
+}
+#five{
+    background-color: bisque;
+    margin-top: -100px;
+    margin-left: 1000px;
+}
+#oneTwo{
+    background-color: blue;
+}
+#twoTwo{
+    background-color: aliceblue;
+    margin-top: -100px;
+    margin-left: 400px;
+}
+#twoThree{
+    background-color: rgb(214, 208, 31);
+    margin-top: -100px;
+    margin-left: 550px;
+}
+#twoFour{
+    background-color: rgb(159, 37, 143);
+    margin-top: -100px;
+    margin-left: 700px;
+}
+#twoFive{
+    background-color: rgb(149, 126, 197);
+    margin-top: -100px;
+    margin-left: 850px;
+}
+#twoSix{
+    background-color: rgb(220, 184, 23);
+    margin-top: -100px;
+    margin-left: 1000px;
+}
+#twoSeven{
+    background-color: rgb(153, 70, 28);
+    margin-top: -100px;
+    margin-left: 1150px;
+}
+/* third row */
+#threeOne{
+    background-color: rgb(173, 173, 173);
+}
+#threeTwo{
+    background-color: aliceblue;
+    margin-top: -100px;
+    margin-left: 250px;
+}
+#threeThree{
+    background-color: rgb(214, 208, 31);
+    margin-top: -100px;
+    margin-left: 400px;
+}
+#threeFour{
+    background-color: rgb(159, 37, 143);
+    margin-top: -100px;
+    margin-left: 550px;
+}
+#threeFive{
+    background-color: rgb(149, 126, 197);
+    margin-top: -100px;
+    margin-left: 700px;
+}
+#threeSix{
+    background-color: rgb(220, 184, 23);
+    margin-top: -100px;
+    margin-left: 850px;
+}
+#threeSeven{
+    background-color: rgb(153, 70, 28);
+    margin-top: -100px;
+    margin-left: 1000px;
+}
+#threeEight{
+    background-color: rgb(185, 13, 198);
+    margin-top: -100px;
+    margin-left: 1150px;
+}
+#threeNine{
+    background-color: rgb(0, 162, 255);
+    margin-top: -100px;
+    margin-left: 1300px;
+}
